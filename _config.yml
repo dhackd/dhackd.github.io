@@ -38,10 +38,10 @@ comments:
     num_posts            : 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
-  commitMessage          : # "New comment by {fields.name}"
-  filename               : # comment-{@timestamp}
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "master"
+  commitMessage          : "New comment by {fields.name}"
+  filename               : comment-{@timestamp}
   format                 : # "yml"
   moderation             : # true
   path                   : # "/_data/comments/{options.slug}" (default)
@@ -279,7 +279,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: multiple
       author_profile: true
       read_time: true
       comments: true
