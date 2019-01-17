@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+#minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -35,7 +35,7 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : 6 (default)
+    num_posts            : 6 #(default)
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
@@ -286,4 +286,4 @@ defaults:
       share: true
       related: true
 
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
